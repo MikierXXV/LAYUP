@@ -1,0 +1,98 @@
+:root {
+    --min-height-value: calc(100vh - 120px);
+    font-size: large;
+} 
+
+.altura{
+    height: 100px;
+}
+
+.anchura{
+    width: 70px;
+}
+
+.bar-wrapper { height: 100px; }
+
+body {
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+footer {
+    background-color: rgba(189, 189, 189, 0.856);
+    height: 100px;
+}
+
+.icono-derecha {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 41px;
+    /* background-color: rgb(107, 104, 104); */
+}
+
+.icono{
+    display: flex;
+    align-items: center;
+    height: 40px; 
+    padding-top: 18px;
+}
+
+label{
+    margin-left: 14px;
+}
+
+.main-wrapper-login {
+    justify-content: center;
+    align-items: center;
+    min-height: var(--min-height-value);
+    background-color: rgb(169, 175, 175);
+}
+.main-wrapper-outlet {
+    padding: 8px 0;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    min-height: var(--min-height-value);
+}
+.pieza{
+    background-color: rgb(169, 175, 175);
+    height: 600px;
+}
+
+.reajuste{
+    display:flex; align-items: center;
+}
+
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) { 
+    :root {
+        --min-height-value: calc(100vh - 90px);
+    } 
+     .retoque{
+        height: 42px;
+    } 
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+
+}

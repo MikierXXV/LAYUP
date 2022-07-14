@@ -1,0 +1,117 @@
+:root {
+    --min-height-value: calc(100vh - 120px);
+}  
+
+.altura{
+    height: 100px;
+}
+
+.anchura{
+    width: 70px;
+}
+
+
+body {
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+div h3{
+    font-size: xx-large;
+}
+/* @keyframes myhover {
+    0% {
+        
+    }
+    to {
+        transform: scaleY(1.5);
+        transform: scaleX(1.5);
+    }
+}
+.fotos:hover{
+    animation-name: myhover;
+} */
+
+.icono-derecha {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 41px;
+    padding-right: 15px;
+    /* background-color: rgb(107, 104, 104); */
+}
+
+.icono{
+    display: flex;
+    align-items: center;
+    height: 41px;
+    padding-top: 18px;
+}
+
+.main-wrapper{
+    min-height: var(--min-height-value);
+}
+
+nav {
+    font-size: large;
+}
+
+.plus, .rest{
+    height: 50px;
+    width: 50px;
+}
+
+.boton, .display-num{
+    height: 50px;
+    width: 100px;
+}
+
+.pieza{
+    background-color: rgb(169, 175, 175);
+    height: 800px; 
+}
+
+.reajuste{
+    display:flex; 
+    align-items: center;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    :root {
+        --min-height-value: calc(100vh - 90px);
+    }
+    .retoque{
+        height: 42px;
+        padding-top: 18px;
+    }
+}
+@media (max-width: 559.98px) { 
+    .retoque{
+        height: 42px;
+        padding-top: 18px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+
+}

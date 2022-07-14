@@ -1,0 +1,134 @@
+:root {
+    --min-height-value: calc(100vh - 120px);
+}  
+
+.altura{
+    height: 150px;
+}
+
+.anchura{
+    width: 70px;
+}
+
+
+body {
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.carta{
+    height: 40%;
+    width: 35%; 
+    background-color: azure;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouse{
+    background-color: rgb(169, 175, 175);;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: #9d7eca;
+}
+
+.icono-derecha {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 41px;
+    padding-right: 15px;
+    /* background-color: rgb(107, 104, 104); */
+}
+
+.icono{
+    display: flex;
+    align-items: center;
+    height: 41px;
+    padding-top: 18px;
+}
+.imagen{
+    height: 100%;
+    width: 100%;
+}
+
+.main-wrapper{
+    min-height: var(--min-height-value);
+}
+
+nav {
+    font-size: large;
+}
+
+.plus, .rest{
+    height: 50px;
+    width: 50px;
+}
+
+.boton, .display-num{
+    height: 50px;
+    width: 100px;
+}
+
+.pieza{
+    background-color: rgb(169, 175, 175);
+    height: 800px; 
+}
+
+.reajuste{
+    display:flex; 
+    align-items: center;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    :root {
+        --min-height-value: calc(100vh - 90px);
+    }
+    .retoque{
+        height: 42px;
+        padding-top: 18px;
+    }
+}
+
+@media (max-width: 559.98px) { 
+    .card-body{
+        font-size: xx-small;
+    }
+    .vistazo{
+        font-size: small;
+    }
+    .retoque{
+        height: 42px;
+        padding-top: 18px;
+    }
+    .espaciado{
+        height: 50px;
+    }
+}
+
+@media (max-width: 767.98px) { 
+    .carta, .carta-izq{
+        font-size: medium;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+    .carta{
+        margin-right: 10px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+
+}
